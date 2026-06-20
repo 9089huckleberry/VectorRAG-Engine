@@ -27,12 +27,19 @@ VectorRAG Engine demonstrates how modern semantic search and AI retrieval system
 
 ## Architecture
 
+```text
 User Query
--> Embedding Generation
--> Vector Search (HNSW/KD-Tree)
--> Context Retrieval
--> LLM Processing
--> AI Generated Response
+    ↓
+Embedding Generation
+    ↓
+Vector Search (HNSW / KD-Tree)
+    ↓
+Context Retrieval
+    ↓
+LLM Processing
+    ↓
+AI Generated Response
+```
 
 ## Key Concepts
 
